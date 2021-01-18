@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to left,rgb(40, 51, 51),rgb(27, 69, 104));
+    font-family: 'Poppins',sans-serif;
+}
+
+header{
+    background-image: linear-gradient(to left,rgb(219, 104, 104),rgb(221, 42, 42));
+    padding: 3rem 0 10rem;
+    font-weight: normal;
+}
+
+.title{
+    font-weight: 600;
+    text-align: center;
+}
+
+.container{
+    width: min(90vw,800px);
+    margin: auto;
+}
+
+#context{
+    margin-top: -6rem;
+}
+
+.form{
+    padding: 2rem;
+    height: 10rem;
+    background-image: linear-gradient(to right,rgb(212, 212, 84),yellow);
+    border-radius: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input{
+    font-size: 2rem;
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid red;
+    box-shadow: 0 0 0.2em red;
+}
+
+.add{
+    margin: 1rem 0 0 80%;
+    border-radius: 40px;
+    height: 2rem;
+    width: 2.5rem;
+    background-color: rgb(202, 38, 38);
+    color: white;
+    cursor: pointer;
+}
+
+.item{
+	margin-top: 0.5rem;
+	display: flex;
+	justify-content: center;
+	padding: 0.5rem;
+	border-bottom: 0.05rem solid rgb(187, 168, 168);
+}
+
+.item_input{
+	width: 60%;
+	text-align: center;
+	color: white;
+	background-color: rgb(32, 37, 37);
+	border-radius: 40px;
+	text-transform: uppercase;
+	font-size: 1rem;
+}
+.item_input:hover{
+	background-color:rgb(246, 104, 104);
+	color: black;
+	border: 1px solid greenyellow;
+}
+
+.removeButton{
+	margin-left: 1rem;
+	cursor: pointer;
+	height: 2rem;
+	width: 2rem;
+	border-radius: 50%;
+	background-color: black;
+	color: red;
+	border: 1px solid red;
+}
+
+.editButton{
+	margin-left: 3rem;
+	cursor: pointer;
+	height: 2rem;
+	width: 3.5rem;
+	border-radius: 40PX;
+	background-color: black;
+	color: greenyellow;
+	border: 1px solid greenyellow;
+}
+
+.editButton:hover{
+	border: 1px solid rgb(32, 54, 32);
+	color: black;
+	background-color: greenyellow;
+}
+.removeButton:hover{
+	border: 1px solid rgb(253, 223, 223);
+	color: white;
+	background-color: red;
+}
